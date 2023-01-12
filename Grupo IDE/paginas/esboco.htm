@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon" id="favicon">
+    <link rel="stylesheet" href="../estilo/mobile.css">
+    <link rel="stylesheet" href="../estilo/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Ministério IDE</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <a href="../index.htm"><img src="../imagens/android-chrome-192x192.png" id="logo" alt="Logo do Grupo IDE"></a>
+        <h1>Ministério IDE</h1>
+        <menu id="menu">
+            <nav id="pages">
+                <ul id="other">
+                   <li><a href="../index.htm">Página Inicial</a></li>
+                   <li><a href="esboco.htm">Esboços</a></li>
+                   <li><a href="temas.htm">Temas</a></li>
+                   <li><a href="ajuda.htm">Ajude-nos</a></li>
+                </ul>  
+            </nav>
+</menu>
+<span class="material-symbols-outlined" id="list" onclick="listClick()">list</span>
+<div id="listMenu">
+    <ul>
+        <li>Temas Populares</li>
+        <ol>
+            <li>Oração</li>
+            <li>Jejum</li>
+            <li>Leitura Bíblica</li>
+            <li>Santa Ceia</li>
+            <li>Sacramentos Cristãos</li>
+        </ol>
+        <li>Fórum de Debates</li>
+        <li>Sobre Nós</li>
+    </ul>
+</div>
+<!-- <span class="material-symbols-outlined" id="perfil">account_circle</span> -->
+</header>
+
+    <main id="principal">
+        <h1>Ainda não foram lançados novos Esboços</h1>
+        <p>Não há nada aqui!</p>
+    </main>
+
+    <footer id="rodape">
+        <div id="social">
+            <a href="https://github.com/Wallace311" target="_blank"><img src="../imagens/logo/logo-github.jpg" alt="Acesso ao GitHub" class="redes"></a>
+            <a href="https://www.instagram.com/wallacefsa1/?next=%2F" target="_blank"><img src="../imagens/logo/logo-instagram.jpg" alt="Acesso ao Instagram" class="redes"></a>
+            <a href="https://twitter.com/j_walace" target="_blank"><img src="../imagens/logo/logo-twitter.jpg" alt="Acesso ao Twitter" class="redes"></a>
+            <a href="https://www.facebook.com/walace.pimentel.9/" target="_blank"><img src="../imagens/logo/logo-facebook.jpg" alt="Acesso ao Facebook" class="redes"></a>
+            <a href="https://www.youtube.com/channel/UC85RG2ghNBP-EM1FycVAxXw" target="_blank"><img src="../imagens/logo/logo-youtube.jpg" alt="Acesso ao Youtube" class="redes"></a>
+        </div>
+        <p>Este Site foi Produzido por <strong>Wallace Pimentel</strong></p>
+        <p>Siga-me nas Redes Socias<p>
+        <p>Veja meus repositórios no GitHub!</p>
+    </footer>
+    
+    
+
+    
+    <script>
+        function listClick(){
+            let list = document.getElementById('listMenu');
+            if(list.style.display == 'none'){
+               list.style.display = 'block';
+            }else{
+                list.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

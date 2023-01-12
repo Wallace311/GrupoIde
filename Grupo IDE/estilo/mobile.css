@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #DB8E53;
+    --cor2: #DBC627;
+    --cor3: #32C9DB;
+    --cor4: #3D77DB;
+    --cor5: #6148DB;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Configuração do Cabeçalho */
+header#cabecalho{
+    padding: 15px 1px 45px 1px; 
+    text-align: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.5);
+}
+header#cabecalho > a > img#logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 8px;
+    left: 8px;
+
+}
+header#cabecalho > h1{
+    font-size: 2.5em;
+    text-align: end;
+    margin-right: 25px;
+}
+
+menu#menu{
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 20px 15px 10px 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.692);
+}
+menu#menu > nav#pages > ul{
+    margin: auto;
+    text-align: center;
+}
+menu#menu > nav#pages > ul > li{
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+}
+menu#menu > nav#pages > ul > li> a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+menu#menu > nav#pages > ul > li> a:hover{
+    text-decoration: underline;
+}
+
+/* Configuração do Menu Lateral */
+header#cabecalho > span#list{
+    font-size: 2em;
+    color: var(--cor4);
+    float: left;
+    cursor: pointer;
+}
+div#listMenu{
+    display: none;
+    background-color: var(--cor2);
+    width: 200px;
+    min-height: 400px;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 101%;
+    text-align: left;
+}
+div#listMenu > ul > li{
+    margin: 15px 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+div#listMenu > ul > ol > li{
+    margin: 6px 0px 6px 35px;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+div#listMenu > ul > li{
+    list-style-type: none;
+}
+
+/* Configuração do Perfil de Usuário */
+/* header#cabecalho > span#perfil{
+    font-size: 2em;
+    background-color: var(--cor2);
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+} */
+
+/* Configurção do Main, Parte do Estudo */
+main#principal{
+    background-color: antiquewhite;
+    padding: 10px 30px;
+    min-height: 350px;
+}
+
+main#principal > section#conteudo > div#estudo{
+    background-color: white;
+    padding: 5px 10px 30px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+main#principal > section#conteudo > div#estudo > h1{
+    text-align: center;
+    font-size: 2.3em;
+    margin: 10px 0px;
+}
+.txtbase{
+    color: red;
+    font-weight: 600;
+    text-indent: 20px;
+}
+main#principal > section#conteudo > div#estudo > ol > li{
+    margin: 5px 30px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+main#principal > section#conteudo > div#estudo > ol > ol > li{
+    margin: 5px 50px;
+    text-align: justify;
+    line-height: 1.2em;
+    font-size: 1.1em;
+}
+
+
+
+/* Configuração do Rodapé */
+footer#rodape{
+    background-color: rgba(0, 0, 10, 0.8);
+    min-height: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+div#social{
+    width: 100%;
+    margin-bottom: 20px;
+}
+div#social > a{
+    margin: 0px 15px;
+}
+footer#rodape > div#social > a > img.redes{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+footer#rodape > div#social > a > img.redes:hover{
+    border: 2px solid var(--cor2);
+}
+footer#rodape > p{
+    color: white;
+    line-height: 1.3em;
+}
