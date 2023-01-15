@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+
+main{
+    padding: 30px;
+}
+h1{
+    text-align: center;
+}
+div.itens{
+    width: 200px;
+    background-color: #4343ff;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    min-height: 40px;
+}
+a > div.itens{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+a:hover{
+    text-decoration: white;
+}

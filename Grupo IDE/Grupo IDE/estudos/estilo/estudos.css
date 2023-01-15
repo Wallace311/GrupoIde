@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+
+div#estudos{    
+    background-color: white;
+    padding: 5px 30px 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.1em;
+}
+div#estudos > h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 15px 0px;
+}
+div#estudos > h2{
+    text-align: left;
+    font-size: 2em;
+    margin: 15px 0px;
+}
+div#estudos > p{
+    text-align: justify;
+    line-height: 22pt;
+    font-weight: 200;
+}
+
+div#estudos > p > strong{
+    color: red;
+}
+p.num{
+    margin: 0px 50px;
+}

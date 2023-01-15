@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+    main#principal{
+        width: 100%;
+    }
+    main#principal > section#conteudo{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 900px){
+    main#principal{
+        width: 100%;
+    }
+    main#principal > section#conteudo{
+        width: 800px;
+        margin: auto;
+    }
+
+    /* Configuração de Estudos. */
+    main#principal > section#conteudo > div#estudos{
+        width: 800px;
+        margin: auto;
+    }
+}
